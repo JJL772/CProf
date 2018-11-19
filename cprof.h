@@ -1,5 +1,5 @@
 /*
-CPerf.h
+CProf.h
 
 C++ performance tools/macros
 */
