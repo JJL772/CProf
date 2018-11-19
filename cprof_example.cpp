@@ -45,4 +45,6 @@ int main()
 	
 	//Dispose test results
 	environment.DisposeTests();
+	
+	return 0;
 }
