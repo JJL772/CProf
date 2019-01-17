@@ -151,7 +151,7 @@ namespace cprof
 				if (!fs.good()) 
 				{
 					fs.close();
-					throw new std::exception("Unable to write to XML");
+					throw std::runtime_error("Unable to write to XML");
 				}
 					
 
@@ -194,7 +194,7 @@ namespace cprof
 				if (!fs.good())
 				{
 					fs.close();
-					throw new std::exception("Unable to write to XML");
+					throw std::runtime_error("Unable to write to XML");
 				}
 
 				fs << "Test Number, Test Name, Duration(ns), Duration(us), Duration(ms), Duration(s)\n";
